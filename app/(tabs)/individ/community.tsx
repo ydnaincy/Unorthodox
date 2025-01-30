@@ -1,11 +1,13 @@
-import { StyleSheet, Text, View } from 'react-native'
+import { StyleSheet, Text, ScrollView } from 'react-native'
 import React from 'react'
+import CommunityScreen from '../../../screens/CommunityScreen'
 
 const community = () => {
   return (
-    <View>
+    <ScrollView>
       <Text>community</Text>
-    </View>
+      <CommunityScreen/>
+    </ScrollView>
   )
 }
 
